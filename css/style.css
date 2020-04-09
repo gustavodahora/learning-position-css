@@ -40,7 +40,6 @@ main {
 }
 
 .box-name {
-    left: 0;
     position: absolute;
     color: blueviolet;
     font-weight: bold;
@@ -87,9 +86,9 @@ main {
     background-color: darkred;
     border: 4px solid blue;
     position: absolute;
-    right: 0;
+    left: 0;
 }
 
 .box-name.right {
-    left: 0;
+    right: 0;
 }
