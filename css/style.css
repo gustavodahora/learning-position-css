@@ -6,25 +6,43 @@ body {
 header {
     width: 100%;
     height: 50px;
-    font-size: 24px;
-    font-weight: bold;
+    
 }
 
 /* Main */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 24px 0;
+}
 
 .explanation-position {
     width: 100%;
     height: 100px;
 }
 
+/* Sextion item-a-r */
+
 .item-a-r {
     border: 4px solid yellow;
+    position: relative;
+}
+
+.box-name.main-name {
+    color: yellow;
+    right: 50%;    
 }
 
 .box-name {
-    right: 0;
+    left: 0;
     position: absolute;
-    color: white;
+    color: blueviolet;
     font-weight: bold;
     font-size: 24px;
     margin: 2px;
@@ -44,4 +62,34 @@ header {
     background-color: darkred;
     border: 4px solid blue;
     position: absolute;
+    right: 0;
+}
+
+.box-name.left-name {
+    
+}
+
+/* box-right */
+
+.box.right {
+    width: 200px;
+    height: 200px;
+    background-color: darkturquoise;    
+    position: absolute;
+    border: 4px green solid;
+    right: 0;
+    top: 0;
+}
+
+.box.right-content {
+    width: 75px;
+    height: 75px;
+    background-color: darkred;
+    border: 4px solid blue;
+    position: absolute;
+    right: 0;
+}
+
+.box-name.right {
+    left: 0;
 }
