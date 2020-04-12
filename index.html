@@ -23,30 +23,65 @@
             <h1>How to understand position in CSS</h1>
         </div>
         <div class="explanation-position">
-            <p>In this example, we will use three boxes. (Or more =D)</p>
-            <p>Two simple things to understand are: </p>
+            <div class="text-container">        
+                <p>In this example, we will use three boxes. (Or more =D)</p>
+                <p>Two simple things to understand are: </p>
+            </div>
             <div class="code">
                 <div class="code-father">
                     <p class="code-css">position: absolute;</p>
                     <p class="code-css">position: relative;</p>
                 </div>
-            </div>            
+            </div>   
+            <div class="text-container">        
+                <p>To position objects using only position in CSS, you need to understand the Family concept.</p>
+                <br>
+                <p>The concept is, TAG father always need to have position relative, because absolute father will find the next father relative, if you don't put this attribute, your block will go to top of the page. (TAG html will be the relative father.)</p>
+                <br>
+                <p>Analise the boxes above, and see the next code to understand:</p>
+            </div>
         </div>
-        <section class="first-disclaimer">
-            <div class="first-disclaimer-father">
-                <p class="title">FATHER</p>
-            </div>
-            <div class="first-disclaimer first-child">
-                <p class="title">FIRST CHILD</p>
-            </div>
-            <div class="first-disclaimer second-child">
-                <p class="second title">SECOND CHILD</p>
+        <section class="main-father">
+            <p class="main-name">relative</p>
+            <div class="main-child">
+                <p class="main-name child">absolute</p>
+                <div class="main-child-2">
+                    <p class="main-name child">absolute</p>
+                </div>
             </div>
         </section>
-        <div class="explanation-position2">
-            <p>TAG father always need to have position relative, because absolute father will find the next father relative, if you don't put this attribute, your block will go to top of the page.</p>
-        </div>
-        
+        <div class="code-main">
+            <h2 class="secundary-title">HTML</h2>
+            <div class="code">
+                <div class="code-father">
+                    <p>&ltsection class="main-father"></p>
+                    <p>    &ltdiv class="main-child"></p>
+                    <p>        &ltdiv class="main-child-2"></p>
+                    <p>        &lt/div></p>
+                    <p>    &lt/div></p>
+                    <p>&lt/section></p>
+                </div>
+            </div>
+            <h2 class="secundary-title">CSS - (Resume without CSS Design)</h2><p>But, don't make diference.</p>
+            <div class="code">
+                <div class="code-father">
+                    <p>.main-father {</p>
+                        <p>    position: relative;</p>
+                        <p>    width: 100%;</p>
+                        <p>    height: 200px;</p>
+                    <p>}<p>
+                    <p>.main-child {</p>
+                        <p>    position: absolute;</p>
+                        <p>    width: 192px;</p>
+                        <p>    height: 192px;</p>
+                    <p>}<p>
+                    <p>.main-child-2 {</p>
+                        <p>    position: absolute;</p>
+                        <p>    width: 50px;</p>
+                        <p>    height: 50px;</p>
+                    <p>}</p>
+                </div>
+            </div>
     </main>
     <footer>
         <div>
