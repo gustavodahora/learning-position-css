@@ -4,15 +4,15 @@ The version used to this repository is CSS3.
 
 ## How to USE
 
-Clone the repository or download in zip format.
+* 1 - Clone the repository or download in zip format.
 
-### Clone: 
-
-Open our local repoisitory in your terminal and write:
+Open your local repository in terminal and write:
 
 ```
-git clone https://github.com/gustavodahora/learning-position-css
+git clone https://github.com/gustavodahora/learning-position-css.git
 ```
+
+* 2 - Open the new repository "learning-position-css" and click on the index.html file.
 
 ## About
 
