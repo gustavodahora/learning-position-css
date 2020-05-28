@@ -1,5 +1,10 @@
 # How to understand Position in CSS
 
+To understand, you need to download and open the webpage in HTML. 
+This is a software for you get an other point of view about Position element CSS.
+
+You can clone the repository and use in your text editor to see my code.
+
 The version used to this repository is CSS3.
 
 ## How to USE
