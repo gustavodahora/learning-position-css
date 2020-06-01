@@ -26,10 +26,8 @@ The project is for all of people that can need to understand about the propertie
 ```
 position: relative;
 position: absolute;
-position: fixed;
-position: static;
 ```
 
 ## Author
 
-Gustavo da Hora
+[Gustavo da Hora](https://github.com/gustavodahora)
